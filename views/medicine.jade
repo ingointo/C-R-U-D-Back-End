@@ -1,0 +1,12 @@
+extend layout
+
+block content
+    h1= article.name
+    h5 Written by #{article.details}
+    p= article.price
+    hr
+    a.btn.btn-default(href='/medicines/edit/'+article._id) Edit
+    a.btn.mx-3.btn-danger(href='/articles/delete/' + article._id, onclick="return confirm('Are you sure you want to delete this article?')") Delete
+
+    
+   

@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  link(rel='stylesheet', href='https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css')
+    
+  script(src='https://code.jquery.com/jquery-3.6.4.js', integrity='sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=', crossorigin='anonymous')
+   
+  script(src='https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js')
+  
+  table#productsTable.table.mt-5
+    thead
+      tr 
+        th  #{title}
+    tbody 
+      each article, i in articles
+        tr 
+          td.list-group-item 
+            a(href="/medicines/"+article._id)= article.name 
+            
+  script.
+    $(document).ready(function () {
+      $('#productsTable').DataTable();
+    });

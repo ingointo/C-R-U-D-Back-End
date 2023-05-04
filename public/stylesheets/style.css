@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+/*====================== header style ==============*/
+.text-style {
+    
+  font-family: 'Courier New', Courier, monospace; font-weight: bolder;
+}
+.nav-col{
+  background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+}
+tbody{
+  font-size: 30px;
+}
