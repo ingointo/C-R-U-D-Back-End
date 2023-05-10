@@ -6,9 +6,9 @@ This project was bootstrapped with [Express Generator](https://expressjs.com/en/
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/ingointo/E-Commerce-Shopping-Cart.git`
+1. Clone the repository: `https://github.com/ingointo/C-R-U-D-Back-End`
 2. Change directory: `cd project-name`
-3. Install dependencies: `npm install`
+3. Install dependencies: `npm install` || you don't nedd to install dependencies because node modules is already in this file 
 
 ## Available Scripts
 
@@ -32,16 +32,6 @@ Nodemon tools that help automatically restarting the node Application when file 
 ### `npm install`
 
 Download & install node modules for start, modules were installed using package.json  .\
-
-
-**Note: You wan't to login 'Admin' page**
-
--> you must enable `signup` form `hbs`  go for drop down menu admin header and `uncomment` the `hbs signup` code.
- 
--> or insert database `adminname` & `password` form `hbs`
-     insert database using given command.\
-     `db.users.insert({username: "admin", password: "admin"})`
-     
 
 
 ## Learn More
