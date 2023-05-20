@@ -66,7 +66,3 @@ start project `npm start` mentioned above
 - Bootstrap `5`
 - pug(jade)
 
-
-### Deployment
-
-[https://github.com/ingointo/E-Commerce-Shopping-Cart.git](https://github.com/ingointo/E-Commerce-Shopping-Cart.git)
